@@ -1,7 +1,9 @@
-import React from "react";
-import "./Header";
+import React, { useState } from "react";
+import "./Header.css";
 
 function Header() {
+  // ============= toggle menu ================
+  const [Toggle, showMenu] = useState(false);
   return (
     <>
       <header className="header">
@@ -10,10 +12,10 @@ function Header() {
             Bete
           </a>
 
-          <div className="nav_menu">
+          <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
             <ul className="nav_list grid">
               <li className="nav_item">
-                <a href="#home" className="nav_link">
+                <a href="#home" className="nav_link active-link">
                   <i className="uil uil-estate nav_icon"></i>
                   Home
                 </a>
@@ -45,10 +47,15 @@ function Header() {
                   <i className="uil uil-message nav_icon"></i>Contact
                 </a>
               </li>
-
             </ul>
 
-            <i className="uil uil-times nav_close"></i>
+            <i
+              className="uil uil-times nav_close"
+              onClick={() => showMenu(!Toggle)}
+            ></i>
+          </div>
+          <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
+            <i class="uil uil-apps"></i>
           </div>
         </nav>
       </header>
