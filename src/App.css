@@ -113,7 +113,7 @@ img{
 .section_subtitle{
   display: block;
   font-size: var(--small-font-size);
-  margin: bottom 4rem;
+ margin-bottom: 4rem;
 }
 .section_subtitle,.section_title{
   text-align: center;
