@@ -55,7 +55,7 @@ function Header() {
             ></i>
           </div>
           <div className="nav_toggle" onClick={() => showMenu(!Toggle)}>
-            <i class="uil uil-apps"></i>
+          <i class="uil uil-apps"></i>
           </div>
         </nav>
       </header>

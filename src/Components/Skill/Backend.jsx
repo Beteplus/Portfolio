@@ -1,7 +1,8 @@
 import React from "react";
 
 function Backend() {
-  return <div className="skills_content">
+  return (
+    <div className="skills_content">
       <h3 className="skills_title">Backend Developer</h3>
       <div className="skills_box">
         <div className="skills_group">
@@ -13,7 +14,6 @@ function Backend() {
             <span className="skill_level">Basics</span>
           </div>
 
-
           <div className="skills_data">
             <i class="bx bx-check-circle"></i>
           </div>
@@ -21,7 +21,6 @@ function Backend() {
             <h3 className="skills_name">Node js</h3>
             <span className="skill_level">Intermidate</span>
           </div>
-
 
           <div className="skills_data">
             <i class="bx bx-check-circle"></i>
@@ -41,7 +40,6 @@ function Backend() {
             <span className="skill_level">Intermidate</span>
           </div>
 
-
           <div className="skills_data">
             <i class="bx bx-check-circle"></i>
           </div>
@@ -50,17 +48,17 @@ function Backend() {
             <span className="skill_level">Intermidate</span>
           </div>
 
-
           <div className="skills_data">
             <i class="bx bx-check-circle"></i>
           </div>
           <div>
-            <h3 className="skills_name"></h3>
-            <span className="skill_level"></span>
+            <h3 className="skills_name">Phython</h3>
+            <span className="skill_level">Basics</span>
           </div>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 }
 
 export default Backend;
