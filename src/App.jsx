@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
+import About from "./Components/About//About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <main>
         <Home />
+        <About />
       </main>
     </>
   );
