@@ -6,18 +6,20 @@ import Skill from "./Components/Skill/Skill";
 import Services from "./Components/Services/Services";
 import Qualification from "./Components/Qualification/Qualification";
 import Testimonial from "./Components/Testimonial/Testimonial";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="main">
         <Home />
         <About />
         <Skill />
         <Services />
         <Qualification />
         <Testimonial />
+        <Contact />
       </main>
     </>
   );
