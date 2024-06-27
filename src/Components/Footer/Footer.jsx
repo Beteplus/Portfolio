@@ -18,8 +18,8 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="footer_link">
-              Testimonials;
+            <a href="#testimonial" className="footer_link">
+              Testimonials
             </a>
           </li>
         </ul>
